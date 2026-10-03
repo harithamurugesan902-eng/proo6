@@ -1,6 +1,6 @@
-UPDATE student
-SET DepartmentID=103
-WHERE StudentName='Karthik';
-DELETE FROM student
-WHERE StudentID=1002;
-SELECT*FROM Student;
+UPDATE Student
+SET Name = 'Haritha'
+WHERE StudentID = 1001;
+
+DELETE FROM Student
+WHERE StudentID = 1003;
